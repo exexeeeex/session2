@@ -1,0 +1,238 @@
+html {
+  font-size: 14px;
+}
+
+* {
+    border: 2px solid red;
+    resize: none;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+
+.mainimg{
+    width: 1900px;
+    height: 500px;
+    background: url('../img/pic1.png') no-repeat center;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.imgdep{
+    width: 1900px;
+    height: 800px;
+    background: url('../img/pic2.png') no-repeat center;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    margin 0 auto;
+}
+
+.client {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 100%;
+}
+
+.employee {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.skudbot {
+    margin-top: 315px;
+    height: 180px;
+}
+
+.skud{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 230px;
+    overflow-y: auto;
+    font-size: 10px;
+    gap: 5px;
+}
+
+.skud17 {
+    width: 60px;
+    height: 180px;
+    margin-left: 230px;
+}
+
+.skud18 {
+    width: 60px;
+    height: 180px;
+}
+.skud19 {
+    width: 125px;
+    height: 180px;
+}
+
+.skud20 {
+    width: 60px;
+    height: 180px;
+}
+
+.skud21 {
+    width: 175px;
+    height: 180px;
+}
+
+.skud22 {
+    width: 60px;
+    height: 180px;
+}
+
+.skud0 {
+    width: 210px;
+    height: 180px;
+    margin-left: 65px;
+}
+
+.skud1 {
+    width: 120px;
+    height: 180px;
+}
+
+.skud2 {
+    width: 60px;
+    height: 180px;
+}
+
+.skud3 {
+    width: 60px;
+    height: 180px;
+}
+
+.skud4 {
+    width: 100px;
+    height: 180px;
+}
+
+.skud5 {
+    width: 105px;
+    height: 180px;
+}
+
+.skud6 {
+    width: 130px;
+    height: 180px;
+}
+
+.skud16{
+    margin-left: -1440px;
+    width: 110px;
+}
+
+.skud15 {
+    width: 190px;
+}
+
+.skud14 {
+    width: 250px;
+}
+
+.skud13 {
+    width: 60px;
+}
+
+.skud12 {
+    width: 170px;
+}
+
+.skud11 {
+    width: 95px;
+}
+
+.skud10 {
+    width: 75px;
+}
+
+.skud9 {
+    width: 95px;
+}
+
+.skud8 {
+    width: 175px;
+}
+
+.skud7 {
+    width: 180px;
+}
+
+.deptop{
+    height: 165px;
+}
+
+.dep104{
+    margin-left: 440px;
+    width: 170px;
+}
+
+.dep105 {
+    width: 170px;
+}
+
+.dep106 {
+    width: 170px;
+}
+
+.dep107 {
+    width: 165px;
+}
+
+.dep108 {
+    width: 105px;
+}
+
+.dep109 {
+    width: 105px;
+}
+
+.dep110 {
+    width: 105px;
+}
+
+.dep103{
+    margin-top: 250px;
+    margin-left: -1020px;
+    width: 170px;
+    height: 240px;
+}
+
+.dep102 {
+    margin-top: 492px;
+    width: 170px;
+    margin-left: -172px;
+    height: 150px;
+}
+
+.dep101 {
+    margin-top: 650px;
+    width: 170px;
+    margin-left: -172px;
+    height: 150px;
+}

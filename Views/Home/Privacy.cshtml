@@ -1,0 +1,16 @@
+﻿@{
+    string dep = "dep";
+}
+<div class="imgdep">
+    @for(int i = 104; i < 111; i++)
+    {
+        dep = $"dep{i}";
+        <div class="@dep deptop" id="@dep"></div>
+    }
+    <br />
+    @for(int i = 103; i > 100; i--)
+    {
+        dep = $"dep{i}";
+        <div class="@dep deptop" id="@dep"></div>
+    }
+</div>
